@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>dashboards semanais IB metrics</title>
+</head>
+<body>
+  <h1>Lista de Dashboards</h1>
+  <ul>
+    <li><a href="dashboard-semana17.html">Dashboard Semana 1</a></li>
+    <li><a href="dashboard-semana18.html">Dashboard Semana 2</a></li>
+    <li><a href="dashboard-semana19.html">Dashboard Semana 3</a></li>
+    <!-- Continue adicionando conforme novas semanas -->
+  </ul>
+</body>
+</html>
