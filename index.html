@@ -1,15 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>dashboards semanais IB metrics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acompanhamento Inbound Metrics POA1</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--border:#e2e4e8;--text:#1a1a2e;--muted:#6b7280;--accent:#1e40af;--red:#dc2626;--amber:#d97706;--green:#15803d;--red-bg:#fef2f2;--green-bg:#f0fdf4;--pill-green:#dcfce7}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column}
+.header{background:#1e293b;color:#fff;padding:24px 32px;text-align:center}
+.header h1{font-size:22px;font-weight:700;letter-spacing:-.02em}
+.header p{font-size:13px;color:#94a3b8;margin-top:6px}
+.container{max-width:720px;width:100%;margin:40px auto;padding:0 24px}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;margin-bottom:12px;padding-left:4px}
+.week-grid{display:flex;flex-direction:column;gap:10px}
+.week-card{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;text-decoration:none;color:var(--text);transition:all .15s ease}
+.week-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(30,64,175,.08);transform:translateY(-1px)}
+.week-card-left{display:flex;align-items:center;gap:14px}
+.week-icon{width:40px;height:40px;border-radius:8px;background:#e0e7ff;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--accent)}
+.week-title{font-size:14px;font-weight:600}
+.week-date{font-size:12px;color:var(--muted);margin-top:2px}
+.week-arrow{color:var(--muted);font-size:18px;transition:transform .15s}
+.week-card:hover .week-arrow{transform:translateX(3px);color:var(--accent)}
+.footer{margin-top:auto;padding:20px;text-align:center;font-size:11px;color:var(--muted)}
+</style>
 </head>
 <body>
-  <h1>Lista de Dashboards</h1>
-  <ul>
-    <li><a href="dashboard-semana18.html">dashboard-semana18</a></li>
-    <li><a href="dashboard-semana19.html">dashboard-semana19</a></li>
-    <!-- Continue adicionando conforme novas semanas -->
-  </ul>
+
+<div class="header">
+<h1>Acompanhamento Inbound Metrics POA1</h1>
+<p>Dashboards semanais · Rate · DPMO · UIT · Apollo · Prioridades</p>
+</div>
+
+<div class="container">
+<div class="section-label">Dashboards Disponíveis</div>
+<div class="week-grid">
+
+<a href="dashboard-semana17.html" class="week-card">
+<div class="week-card-left">
+<div class="week-icon">17</div>
+<div>
+<div class="week-title">Semana 17</div>
+<div class="week-date">12–18 Abr 2026 · 144 AAs</div>
+</div>
+</div>
+<div class="week-arrow">→</div>
+</a>
+
+<a href="dashboard-semana18.html" class="week-card">
+<div class="week-card-left">
+<div class="week-icon">18</div>
+<div>
+<div class="week-title">Semana 18</div>
+<div class="week-date">19–25 Abr 2026 · 126 AAs</div>
+</div>
+</div>
+<div class="week-arrow">→</div>
+</a>
+
+<a href="dashboard-semana19.html" class="week-card">
+<div class="week-card-left">
+<div class="week-icon">19</div>
+<div>
+<div class="week-title">Semana 19</div>
+<div class="week-date">3–9 Mai 2026 · 125 AAs</div>
+</div>
+</div>
+<div class="week-arrow">→</div>
+</a>
+
+</div>
+</div>
+
+<div class="footer">POA1 · IB Learning · Atualizado em Mai 2026</div>
+
 </body>
 </html>
+
